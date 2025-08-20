@@ -1,3 +1,5 @@
+# FRONTEND README.md
+
 ### 레포 관리자로 등록 해놨으니 설정 변경할 수 있는 권한 있을꺼여 
 
 
@@ -26,6 +28,8 @@
 
 보다 쉽게 커밋 메시지 양식을 작성할 수 있도록, 프로젝트에 커밋 템플릿을 준비해 두었습니다. 아래 명령어를 터미널에 한 번만 입력하면, 이후 커밋할 때마다 자동으로 양식이 열립니다.
 
+커밋 템플릿 설정은 해당 프로젝트 커밋시에만 적용됩니다.
+
 1.  터미널을 열고, 프로젝트 폴더로 이동합니다.
 2.  아래 명령어를 입력하여 커밋 템플릿을 등록합니다.
 ```sh
@@ -33,6 +37,9 @@ git config commit.template .github/COMMIT_TEMPLATE.txt
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이후 git commit 명령어를 입력하거나, ide의 commit 관련 확장을 실행하면 양식이 자동으로 나타납니다. 참고해주세요.
 
-3. 이슈 템플릿 활용하기
+### 3. 이슈 템플릿 활용하기
    우리 팀은 이슈를 체계적으로 관리하기 위해 템플릿을 사용하고 있습니다. 새로운 기능 개발, 버그 수정 등을 시작하기 전에 꼭 해당 템플릿으로 이슈를 생성해주세요.
    ./github/ISSUE_TEMPLATE 폴더에 다양한 이슈 템플릿이 있으니, 용도에 맞게 사용하면 됩니다.
+
+   <img width="721" height="387" alt="image" src="https://github.com/user-attachments/assets/2d3db95f-7fd6-4c6d-9daf-6ef5c13ec4b9" />
+
